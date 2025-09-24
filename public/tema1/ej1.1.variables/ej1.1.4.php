@@ -13,10 +13,10 @@
         $booleano = true;
 
         echo "<ul>";
-        echo "<li>Valor: $entero , Tipo: " . gettype($entero) . "</li>";
-        echo "<li>Valor: $flotante , Tipo: " . gettype($flotante) ."</li>";
-        echo "<li>Valor: $cadena , Tipo: " . gettype($cadena) . "</li>";
-        echo "<li>Valor: $booleano , Tipo: " . gettype($booleano) . "</li>";
+        echo "<li>Valor: $entero, Tipo: " . gettype($entero) . "</li>";
+        echo "<li>Valor: $flotante, Tipo: " . gettype($flotante) ."</li>";
+        echo "<li>Valor: $cadena, Tipo: " . gettype($cadena) . "</li>";
+        echo "<li>Valor: $booleano, Tipo: " . gettype($booleano) . "</li>";
         echo "</ul>";
 
     ?>
