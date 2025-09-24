@@ -14,7 +14,7 @@
         funciona en clases/namespaces y permite visibilidad.
 
         define() crea constantes en tiempo de ejecución, 
-        siempre son globales y no admiten visibilidad en clases.
+        siempre son globales y no admiten visibilidad en clases.dddd
         **/
         const VERSION_PHP = '8.4';
         define('IS_TEST_MODE_ACTIVE', false);
