@@ -11,10 +11,10 @@
         $numero_entero = 25;
 
         $resultado_suma = $numero_string + $numero_entero;
-        echo "Valor: $resultado_suma, Tipo: " . gettype($resultado_suma) . "\n";
+        echo "Resultado de la suma: $resultado_suma, Tipo: " . gettype($resultado_suma) . "\n";
 
         $resultado_concat = $numero_string . $numero_entero;
-        echo "Valor: $resultado_concat, Tipo: " . gettype($resultado_concat);
+        echo "Resultado de la concatenación: $resultado_concat, Tipo: " . gettype($resultado_concat);
     ?>
 </body>
 </html>
