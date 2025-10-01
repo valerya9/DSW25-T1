@@ -7,7 +7,30 @@
 </head>
 <body>
     <?php
-        ãlumnos
+        $alumno = ["nombre" => "Ana", "apellido" => "García", "edad" => 20, "curso" => "Programación Web"];
+
+        echo "<pre>";
+        print_r($alumno);
+        echo "</pre>";
+
+        echo "<pre>";
+        print_r($alumno["nombre"]);
+        echo "</pre>";
+
+        $alumno["email"] = "ana.garcia@example.com";
+        echo "<pre>";
+        print_r($alumno);
+        echo "</pre>";
+
+        $alumno["edad"] = 21;
+        echo "<pre>";
+        print_r($alumno);
+        echo "</pre>";
+
+        unset($alumno["curso"]);
+        echo "<pre>";
+        print_r($alumno);
+        echo "</pre>";
     ?>
 </body>
 </html>
